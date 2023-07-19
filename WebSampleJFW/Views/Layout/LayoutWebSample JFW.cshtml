@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>@ViewBag.title </title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="~/Css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="~/css/responsive.scss">
+
+</head>
+<body>
+    <!-- header section start -->
+    <div class="header_section">
+        <div class="container-fluid">
+            <nav class="navbar ">
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav mr-auto">
+                        <ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Home">
+                                    <img src="" />
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/Tutorials">
+                                    Tutorials
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/Practice">Practice</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/Introduce">Introduce</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/AboutUs">About Us</a>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/SignUp">Sign Up</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/LogIn">Log In</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- header section end -->
+    @RenderBody()
+    <!-- footer section start -->
+    <div class="footer_section layout_padding">
+        <div class="container">
+
+        </div>
+    </div>
+    <!--  footer section end -->
+
+</body>
+</html>
